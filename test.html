@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>testing</title><!-- 
+	<script src="parallax.js-1.4.2/parallax.js"></script> --> 
+	<script type="text/javascript" src="js/firewizard.js"></script><!--
+	<script type="text/javascript" src="js/jquery.simplr.smoothscroll.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script> -->
+
+	<style>
+		body{
+			margin: 0 auto;
+			width: 960px;
+			position: relative;
+		}
+		*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+		#non_parallax{
+			background-image: url(images/keyart-mobile.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: auto 100%;
+			display: none;
+		}
+		.keyart{
+			position: relative;
+			z-index: 10;
+		}
+		#parallax{
+			display: block;
+		}
+		.keyart_layer.parallax{
+			position: fixed;
+		}
+		.keyart, .keyart_layer{
+			height: 1000px;
+		}
+		#parallax #keyart-0{
+			left: -52%;
+			top: -55px;
+			background:transparent url(images/parallax0.png);
+			background-color: #ffaf00;
+			/*position: fixed;*/
+			z-index: 1;
+
+		}
+		#parallax #keyart-1{
+			margin-left: -788px;
+			margin-top: -858px;
+			background-image: url(images2/p1.png);
+			z-index: 2;
+		}
+		#parallax #keyart-2{
+			margin-left: 445px;
+			margin-top: -655px;
+			background-image: url(images2/p2.png);
+			z-index: 3;
+		}
+		#parallax #keyart-3{
+			margin-left: 450px;
+			margin-top: -855px;
+			background-image: url(images2/p3.png);
+			z-index: 4;
+		}
+		#parallax #keyart-4{
+			background-image: url(images2/p4.png);
+			margin-left: -795px;
+			margin-top: -730px;
+			z-index: 5;
+			
+		}
+		#parallax #keyart-5{
+			background-image: url(images2/p5.png);
+			margin-left: -795px;
+			margin-top: -710px;
+			z-index: 6;
+		}
+		#parallax #keyart-6{
+			background-image: url(images2/p6.png);
+			margin-left: -790px;
+			margin-top: -780px;
+			z-index: 7;
+		}
+		#parallax #keyart-7{
+			background-image: url(images2/p7.png);
+			margin-left: -790px;
+			margin-top: -780px;
+			z-index: 8;
+		}
+		#parallax #keyart-8{
+			background-image: url(images2/p8.png);
+			margin-left: -380px;
+			margin-top: -460px;
+			z-index: 9;
+		}
+		#parallax .keyart_layer{
+			background-position: center bottom;
+			background-repeat: no-repeat;
+			background-size: auto 1038px;
+			position: absolute;
+			width: 100%;
+			height: 1000px;
+			background-repeat: repeat-x;
+		
+		}
+		#keyart-scrim {
+		background-color: #ffaf00;
+		opacity: 0.9;
+		}
+	</style>
+</head>
+<body>
+<div id="non_parallax" class="keyart"></div>
+<div id="parallax" class="keyart">
+	<div id="keyart-0" class="keyart_layer.parallax" data-speed="2" style="transform: translate3d(0px, 0px, 0px); width:3500px; height:1068px;"></div>
+	<div id="keyart-1" class="keyart_layer.parallax" data-speed="5" style="transform: translate3d(0px, 0px, 0px);width:3500px; height:802px;"></div>
+	<div id="keyart-2" class="keyart_layer.parallax" data-speed="11" style="transform: translate3d(0px, 0px, 0px);width:3486px; height:857px ;"></div>
+	<div id="keyart-3" class="keyart_layer.parallax" data-speed="16" style="transform: translate3d(0px, 0px, 0px); width:3491px; height:721px;"></div>
+	<div id="keyart-4" class="keyart_layer.parallax" data-speed="26" style="transform: translate3d(0px, 0px, 0px);width:3500px; height:654px;"></div>
+	<div id="keyart-5" class="keyart_layer.parallax" data-speed="36" style="transform: translate3d(0px, 0px, 0px);width:3500px; height:711px ;"></div>
+	<div class="keyart_layer" id="keyart-scrim"></div>
+	<div id="keyart-6" class="keyart_layer.parallax" data-speed="49" style="transform: translate3d(0px, 0px, 0px);width:3499px; height:652px;"></div>
+	<div id="keyart-7" class="keyart_layer.parallax" data-speed="69" style="transform: translate3d(0px, 0px, 0px);width:1736px; height:831px; "></div>
+	<div id="keyart-8" class="keyart_layer" data-speed="100" style="transform: translate3d(0px, 0px, 0px);width:3499px; height:652px;"></div>
+
+
+
+</div>
+<!-- <div id="keyart0" class="keyart_layerparallax" data-speed="2" width="3500" height="1068"></div>
+	<div id="keyart1" class="keyart_layerparallax" data-speed="5" width="3500" height="802"></div>
+	<div id="keyart2" class="keyart_layerparallax" data-speed="11" width="3486" height="857"></div>
+	<div id="keyart-3" class="keyart_layerparallax" data-speed="16" width="3491" height="721"></div>
+	<div id="keyart4" class="keyart_layerparallax" data-speed="26" width="3500" height="654"></div>
+	<div id="keyart5" class="keyart_layerparallax" data-speed="36" width="3500" height="711"></div>
+	<div class="keyart_layer" id="keyart-scrim"></div>
+	<div id="keyart6" class="keyart_layerparallax" data-speed="49" width="3499" height="652"></div>
+	<div id="keyart7" class="keyart_layerparallax" data-speed="69" width="1736" height="831"></div>
+	<div id="keyart8" class="keyart_layer" data-speed="100" width="3499" height="652"></div> -->
+	<script type="text/javascript">
+	// 	window.addEventListener("scroll", function(event){
+
+	// 	var top = this.pageYOffset;
+
+	// 	var layers = document.getElementsByClassName("parallax");
+	// 	var layer, speed, yPos;
+	// 	for (var i = 0; i < layers.length; i++) {
+	// 		layer = layers[i];
+	// 		speed = layer.getAttribute('data-speed');
+	// 		var yPos = -(top * speed / 100);
+	// 		layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
+
+	// 	}
+	// })
+
+	</script>
+</body>
+</html>

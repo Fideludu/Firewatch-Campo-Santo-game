@@ -1,0 +1,858 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+body{
+	margin: 0 auto;
+	width: 100%;
+}
+html{
+	font-family: "verlag",times,verdana;
+}
+@font-face{
+	font-family: "verlag";
+	src:url(../Verlag-Book.otf);
+}
+
+@media (max-width:420px){	
+	#animatn{
+		width: 100%;
+		height: 320px;
+		background-color:#FFAF00;
+	}
+
+	.logo{
+		width:300px;
+		height: 170px;
+		margin-top: -260px;
+		margin-left: -10px;
+		background-image: url(../imagestore/blogo.png);
+	}
+	#campso{
+		margin-top: -120px;
+		margin-left: 10px;
+		text-align: center;
+	}
+	#campso a{
+		text-decoration: none;
+		font-size: 15px;
+		font-family: "verlag";
+		font-weight: bolder;
+		color: #000;
+		border-bottom: 1px dotted #ddd;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+	#campso a:hover{
+		border-bottom: 1px dotted #fff;
+	}
+	.container{
+		width: 100%;
+		margin: 140px auto;
+		height: 1500px;
+	}
+	.container #vinyl{
+		width: 100%;
+		height: 200px;
+		background-image: url(../imagestore/k.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.container .lft{
+		display: none;
+	}
+	.container .mi1{
+		padding: 5%;
+		margin-top: 0;
+		text-align: center;
+	}
+	.container .rt1{
+		display: none;
+	}	
+	.container .mi1 a#trk{
+		text-decoration: none;
+		font-family: verdana;
+		font-size: 15px;
+		color: #000;
+	}	
+	.container #roll:hover, #vinyl:hover~#roll{
+		background-color: #F8ae00;
+	}
+	.container .vinyl1 h2{
+		margin-top: 20px;
+		border-bottom: 2px dotted;
+	}
+	.container .left, .right{
+		width: 100%;
+}
+	.container .left figure h2, .right figure h2{
+		letter-spacing: 2px;
+		font-size: 22px;
+		font-weight: normal;
+		text-align: center;
+	}
+	.container figure{
+		width: 100%;
+		margin-bottom: 85px;
+		margin-left: 0;
+	}
+	.container figure img{
+		width: 100%;
+	}
+	.container figure ul li{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.container figure ul{
+		padding-left: 0;
+		margin-top: 0;
+		width: 100%;
+	}
+	.container .lf{
+		text-align: left;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.container .mi{
+		margin-left: 20%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.container .rt{
+		float: right;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 3px;
+	}	
+	.container .rt a, .mi a{
+		text-decoration: none;
+		color: #000;
+	}
+	.container .rollover{
+		width: 65%;
+		height: 50px;
+		display: inline-block;
+		vertical-align: top;
+		float: right;
+		margin-top: -4px;
+	}
+	
+	.container .rollover:hover{
+		background-color: #F8ae00;
+	}
+
+	footer{
+		background-color: #F8ae00;
+		width: 100%;
+		height: 100px;
+}
+	.foot{
+		padding-top: 40px;
+		font-size: 15px;
+		font-family: verdana;
+		text-align: center;
+		font-weight: 700;
+	}
+
+	nav{
+		width: 100%;
+		height: 320px;
+		top: 190px;
+		background-color: #000;
+		position: relative;
+		clear: both;
+	}
+	.two{
+		width: 100%;
+		margin-top:0;
+	}
+	.two ul{
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.two ul li{
+		padding: 20px;
+		margin-left: -40px;
+		text-align: center;
+	}	
+	.two ul li a{
+		width: 100px;
+		font-family: "verlag";
+		color: #FFF;
+		font-size: 18px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.two ul li a .collapse, #og{
+		display: none;
+	}
+	.two ul li a #og{
+		font-size: 12px;
+		font-weight: bold;
+		word-spacing: 5px;
+	}
+	.two ul li:hover, .two ul li a:hover .one h1:hover{
+		background-color: #282825;
+	}
+	.two ul li:active, .two ul li a:active, .one h1:active,#selected{
+		background-color: #A34300;
+	}
+}
+
+@media(min-width: 421px) and (max-width: 720px){
+	#animatn{
+		width: 100%;
+		height: 320px;
+		background-color:#FFAF00;
+	}
+
+	.logo{
+		width:300px;
+		height: 170px;
+		margin-top: -260px;
+		margin-left: 18%;
+		background-image: url(../imagestore/blogo.png);
+	}
+	#campso{
+		margin-top: -120px;
+		margin-left: 10px;
+		text-align: center;
+	}
+	#campso a{
+		text-decoration: none;
+		font-size: 15px;
+		font-family: "verlag";
+		font-weight: bolder;
+		color: #000;
+		border-bottom: 1px dotted #ddd;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+	#campso a:hover{
+		border-bottom: 1px dotted #fff;
+	}
+	.container{
+		width: 100%;
+		margin: 140px auto;
+		height: 1500px;
+	}
+	.container #vinyl{
+		width: 100%;
+		height: 200px;
+		background-image: url(../imagestore/k.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.container .lft{
+		display: none;
+	}
+	.container .mi1{
+		padding: 4%;
+		margin-top: 0;
+		text-align: center;;
+	}
+	.container .rt1{
+		display: none;
+	}	
+	.container .mi1 a#trk{
+		text-decoration: none;
+		font-family: verdana;
+		font-size: 15px;
+		color: #000;
+	}
+	.container #roll:hover,#vinyl:hover~#roll{
+		background-color: #F8ae00;
+	}
+	.container .vinyl1 h2{
+		margin-top: 20px;
+		border-bottom: 2px dotted;
+	}
+	.container .left, .right{
+		width: 100%;
+}
+	.container .left figure h2, .right figure h2{
+		letter-spacing: 2px;
+		font-size: 22px;
+		font-weight: normal;
+		text-align: center;
+	}
+	.container figure{
+		width: 100%;
+		margin-bottom: 85px;
+		margin-left: 0;
+	}
+	.container figure img{
+		width: 100%;
+	}
+	.container figure ul li{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.container figure ul{
+		padding-left: 0;
+		margin-top: 0;
+		width: 100%;
+	}
+	.container .lf{
+		text-align: left;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.container .mi{
+		margin-left: 15%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.container .rt{
+		float: right;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 3px;
+	}	
+	.container .rt a, .mi a{
+		text-decoration: none;
+		color: #000;
+	}
+	.container .rollover{
+		width: 60%;
+		height: 50px;
+		display: inline-block;
+		vertical-align: top;
+		float: right;
+		margin-top: -4px;
+	}
+	.container .rollover:hover{
+		background-color: #F8ae00;
+	}
+
+	footer{
+		background-color: #F8ae00;
+		width: 100%;
+		height: 100px;
+}
+	.foot{
+		padding-top: 40px;
+		font-size: 15px;
+		font-family: verdana;
+		text-align: center;
+		font-weight: 700;
+	}
+
+	nav{
+		width: 100%;
+		height: 320px;
+		top: 180px;
+		background-color: #000;
+		position: relative;
+		clear: both;
+	}
+.two{
+		width: 100%;
+		margin-top:0;
+	}
+	.two ul{
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.two ul li{
+		padding: 20px;
+		margin-left: -40px;
+	}	
+	.two ul li a{
+		width: 100px;
+		font-family: "verlag";
+		color: #FFF;
+		font-size: 18px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.two ul li a .collapse, #og{
+		display: none;
+	}
+	.two ul li a #og{
+		font-size: 12px;
+		font-weight: bold;
+		word-spacing: 5px;
+	}
+	.two ul li:hover, .two ul li a:hover .one h1:hover{
+		background-color: #282825;
+	}
+	.two ul li:active, .two ul li a:active, .one h1:active,#selected{
+		background-color: #A34300;
+	}
+}
+
+@media(min-width: 721px) and (max-width: 960px){
+	nav{
+		width: 100%;
+		height: 34px;
+		top: 0;
+		position: absolute;
+		background-color: #000;
+	}
+	.one{
+		width: 10%;
+		height: 34px;
+		float: left;
+	}
+	.one h1{
+		margin-top: 0;
+		font-family: verdana;
+		font-size: 13px;
+		color: #FFF;
+		text-align: left;
+		padding-left: 10px;
+		padding: 9px;
+	}
+	.one h1 a, .two ul li a{
+		text-decoration: none;
+		color: #FFAF00;
+	}
+	.two ul li a .collapse, #og{
+		display: none;
+	}
+	.two{
+		width: 75%;
+		height: 34px;
+		float: right;
+	}
+	.two ul{
+		margin-top: 0;
+		float: right;
+	}
+	.two ul li{
+		display: inline-block;
+		vertical-align: top;
+		padding: 7px;
+	}	
+	.two ul .li1{
+		float: left;
+		margin-left: -350px;
+	}
+	.two ul li a{
+		font-family:"verlag";
+		color: #FFF;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: left;
+		padding:10px 5px;
+		text-decoration: none;
+	}
+	.two ul li a #og{
+		font-size: 13px;
+		font-weight: normal;
+		word-spacing: 5px;
+	}
+	.two ul li:hover, h1:hover {
+		background-color: #5A1715;
+	}
+	.two ul li:active,#selected{
+		background-color: #A34300;
+		color: #FFAF00;
+	}
+	#animatn{
+		width: 100%;
+		height: 320px;
+		background-color:#FFAF00;
+	}
+
+	.logo{
+		width:300px;
+		height: 170px;
+		margin-left: 25%;
+		margin-top: -210px;
+		background-image: url(../imagestore/blogo.png);
+	}
+	#campso{
+		margin-top: -70px;
+		text-align: center;
+	}
+	#campso a{
+		text-decoration: none;
+		font-size: 15px;
+		font-family: "verlag";
+		font-weight: bolder;
+		color: #000;
+		border-bottom: 1px dotted #ddd;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+	#campso a:hover{
+		border-bottom: 1px dotted #fff;
+	}
+	.container{
+		width: 100%;
+		margin: 100px auto;
+		height: 1500px;
+	}
+	.container #vinyl{
+		width: 100%;
+		height: 260px;
+		background-image: url(../imagestore/k.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.container .lft{/*
+		margin-left: 26px;*/
+		display: inline-block;
+		vertical-align: top;
+	}
+	.container .lft #stk{
+		text-decoration: none;
+		color: #000;
+	}
+	.container .mi1{
+		margin-left: 3%;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: -5px;
+	}
+	.container .rt1{
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 3px;
+	}	
+	.container .rt1 a#more{
+		text-decoration: none;
+		color: #000;
+		font-size: 15px;
+	}
+	.container .mi1 a#trk{
+		text-decoration: none;
+		font-family: verdana;
+		font-size: 23px;
+		color: #000;
+	}
+	.container #roll{
+		width: 100%;
+		height: 60px;
+		display: inline-block;
+		vertical-align: top;
+		position: absolute;
+		margin-top: -2px;
+	}
+	.container #roll:hover, #vinyl:hover~#roll{
+		background-color: #F8ae00;
+	}
+	.container .vinyl1 h2{
+		margin-top: 20px;
+		border-bottom: 2px dotted;
+		margin-left: 23px;
+	}
+	.container .left{
+		width: 45%;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 2%;
+}
+	.container .left figure h2, .right figure h2{
+		letter-spacing: 2px;
+		font-size: 22px;
+		font-weight: normal;
+		text-align: center;
+	}
+	.container figure{
+		width: 100%;
+		margin-bottom: 85px;
+		margin-left: 0;
+	}
+	.container figure ul li{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.container figure ul{
+		padding-left: 0;
+		margin-top: 0;
+		width: 100%;
+	}
+	.container figure img{
+		width: 100%;
+		height: 321px;
+	}
+	.container .lf{
+		text-align: left;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.container .mi{
+		margin-left: 20%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.container .rt{
+		float: right;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 3px;
+	}	
+	.container .rt a, .mi a{
+		text-decoration: none;
+		color: #000;
+	}
+	.container .rollover{
+		width: 65%;
+		height: 50px;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: -4px;
+		float: right;
+	}
+	.container .rollover:hover{
+		background-color: #F8ae00;
+	}
+
+	.container .right{
+		width: 45%;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 2%;	
+}
+footer{
+		width: 100%;
+		background-color: #F8ae00;
+		height: 100px;
+}
+	.foot{
+		padding-top: 40px;
+		font-size: 15px;
+		font-family: verdana;
+		text-align: center;
+		font-weight: 700;
+	}
+}	
+@media (min-width: 961px){
+	nav{
+		width: 100%;
+		height: 34px;
+		top: 0;
+		position: absolute;
+		background-color: #000;
+	}
+	.one{
+		width: 10%;
+		height: 34px;
+		float: left;
+	}
+	.one h1{
+		margin-top: 0;
+		font-family: verdana;
+		font-size: 13px;
+		color: #FFF;
+		text-align: left;
+		padding-left: 10px;
+		padding: 9px;
+	}
+	.one h1 a, .two ul li a{
+		text-decoration: none;
+		color: #FFAF00;
+	}
+	.two{
+		width: 75%;
+		height: 34px;
+		float: right;
+	}
+	.two ul{
+		margin-top: 0;
+		float: right;
+	}
+	.two ul li{
+		display: inline-block;
+		vertical-align: top;
+		padding: 7px;
+	}	
+	.two ul .li1{
+		float: left;
+		margin-left: -660px;
+	}
+	.two ul li a{
+		font-family:"verlag";
+		color: #FFF;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: left;
+		padding:10px 5px;
+		text-decoration: none;
+	}
+	.two ul li a #og{
+		font-size: 13px;
+		font-weight: normal;
+		word-spacing: 5px;
+	}
+	.two ul li:hover, h1:hover {
+		background-color: #5A1715;
+	}
+	.two ul li:active,#selected{
+		background-color: #A34300;
+		color: #FFAF00;
+	}
+	#animatn{
+		width: 100%;
+		height: 320px;
+		background-color:#FFAF00;
+	}
+
+	.logo{
+		width:300px;
+		height: 170px;
+		margin-left: 40%;
+		margin-top: -220px;
+		background-image: url(../imagestore/blogo.png);
+	}
+	#campso{
+		margin-top: -50px;
+		text-align: center;
+	}
+	#campso a{
+		text-decoration: none;
+		font-size: 15px;
+		font-family: "verlag";
+		font-weight: bolder;
+		color: #000;
+		border-bottom: 1px dotted #ddd;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		text-align: center;
+	}
+	#campso a:hover{
+		border-bottom: 1px dotted #fff;
+	}
+	.container{
+		width: 960px;
+		margin: 140px auto;
+		height: 1500px;
+	}
+	.container #vinyl{
+		width: 100%;
+		height: 322px;
+		background-image: url(../imagestore/k.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.container .lft{
+		display: inline-block;
+		vertical-align: top;
+		
+	}
+	.container .lft #stk{
+		text-decoration: none;
+		color: #000;
+		font-size: 20px;
+	}
+	.container .mi1{
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 14%;
+		margin-top: -2px;
+	}
+	.container .mi1 a#trk{
+		text-decoration: none;
+		font-family: verdana;
+		font-size: 22px;
+		color: #000;
+	}
+	.container .rt1{
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 13%;
+	}	
+	.container .rt1 a#more{
+		text-decoration: none;
+		color: #000;
+		font-size: 20px;
+	}
+	.container #roll{
+		width: 100%;
+		height: 60px;
+		margin-top: -2px;
+	}
+	.container #roll:hover{
+		background-color: #F8ae00;
+	}
+	.container #vinyl:hover ~ #roll{
+		background-color: #F8ae00; 
+	}
+	.container .vinyl1 h2{
+		margin-top: 20px;
+		border-bottom: 2px dotted;
+		margin-left: 23px;
+	}
+	.container .left{
+		width: 45%;
+		display: inline-block;
+		vertical-align: top;
+}
+	.container .left figure h2, .right figure h2{
+		letter-spacing: 2px;
+		font-size: 22px;
+		font-weight: normal;
+		text-align: center;
+	}
+	.container figure{
+		width: 100%;
+		margin-bottom: 85px;
+	}
+	.container figure ul li{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.container figure ul{
+		padding-left: 0;
+		margin-top: 0;
+		width: 100%;
+	}
+	.container .lf{
+		text-align: left;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.container .mi{
+		margin-left: 20%;
+		display: inline-block;
+		vertical-align: top;
+		padding-top: 5px;
+	}
+	.container .rt{
+		float: right;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 3px;
+		padding-top: 5px;
+	}	
+	.container .rt a, .mi a{
+		text-decoration: none;
+		color: #000;
+	}
+	.container .rollover{
+		width: 22%;
+		height: 50px;
+		display: inline-block;
+		vertical-align: top;
+		position: absolute;
+		margin-left: 4.6%;
+		margin-top: -4px;
+	}
+	.container .rollover:hover{
+		background-color: #F8ae00;
+	}
+	.container .right{
+		width: 45%;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 7%;	
+}
+footer{
+		background-color: #F8ae00;
+		width: 100%;
+		height: 100px;
+		margin-left: 25px;
+}
+	.foot{
+		padding-top: 40px;
+		font-size: 15px;
+		font-family: verdana;
+		text-align: center;
+		font-weight: 700;
+	}
+}

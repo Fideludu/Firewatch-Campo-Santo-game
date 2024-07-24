@@ -1,0 +1,1244 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+body{
+	margin: 0 auto;
+	width: 100%;
+}
+html{
+	font-family: "verlag",times,verdana;
+}
+@font-face{
+	font-family: "verlag";
+	src:url(../Verlag-Book.otf);
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+@media (max-width:420px){
+	
+	#animatn{
+		width: 100%;
+		height: 350px;
+		animation:bg 10s ease;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		-moz-animation-name: bg;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+
+	}
+	@keyframes bg{
+		0%{background-color:#AD4200;}
+		20%{background-color: #355F26;}
+		40%{background-color: #7F5302;}
+		60%{background-color: #15692D;}
+		80%{background-color: #A74301;}
+		100%{background-color: #A34500;}/*#855102#875002*/
+	}
+
+	.logo{
+		width:293px;
+		height: 156px;
+		margin-top: -280px;
+		background-image: url(../imagesblog/whitelogo.png);
+	}
+	#campso{
+		margin-top: -110px;
+		text-align: center;
+		border-bottom: 3px solid #fff;
+	}
+	#campso a{
+		text-decoration: none;
+		font-size: 16px;
+		font-weight: bolder;
+		font-family: "verlag";
+		color: #fff;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		border-bottom: 1px solid;
+	}
+	#campso a:hover{
+		border-bottom: 1px dotted;
+	}
+	.container{
+	width: 100%;
+	margin: 140px auto;
+}
+	.primary{
+		width: 100%;
+	}
+	.primary-content{
+		width: 100%;
+	}
+	.primary-content h2{
+		border-bottom: 2px dotted;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+	}
+	.primary-content .headin{
+		color: #A0A0A0;
+		margin-left: 50%;
+		font-size: 20px;
+		text-decoration: none;
+	}
+	.primary-content .headimg{
+		width: 43px;
+		height: 43px;
+		color: #fff;
+		border-radius: 100%;
+		background-color: #A0A0A0;
+		font-size: 13px;
+		font-weight: bold;
+		margin-left: 5px;
+		border:none;
+		margin-bottom: 8px;
+	}
+	.primary-content .pix1{
+		width: 100%;
+		height: 215px;
+		background-image: url(../imagesblog/b3.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	}
+	.pix2{
+		background-image: url(../imagesblog/b15.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 215px;
+		margin-top: 5px;
+	}
+	.pix3{
+		background-image: url(../imagesblog/b9.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 240px;
+		margin-top: 5px;
+	}
+	 p{
+		font-family: times;
+		text-decoration: none;
+		margin-left: 10px;
+		text-align: justify;
+		font-size: 20px;
+	}
+	 p a{
+		color: #6F6F6F;
+		text-decoration: none;
+	}
+	.postf{
+		padding-left: 0;
+		margin-bottom: -5px;
+		margin-top: 30px;
+	}
+	.postfooter .pf{
+		color: #6F6F6F;
+		font-family: verdana;
+		font-size: 12px;
+		font-weight: bold;
+		text-transform: uppercase;
+		display: inline-block;
+		vertical-align: top;
+		text-decoration: none;
+	}
+	.postfooter .pf:hover{
+		text-decoration: underline;
+	}
+	.pix4{
+		width: 100%;
+		height: 300px;
+		background-image: url(../imagesblog/b14.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.perf li{
+		font-size: 20px;
+		text-align: justify;
+	}
+	.pix5{
+		width: 100%;
+		height: 180px;
+		background-image: url(../imagesblog/b7.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.pix6{
+		width: 100%;
+		height: 180px;
+		background-image: url(http://68.media.tumblr.com/778df6bd4bbcf516166ff7a3eecfe77c/tumblr_oge0um72n51sikueao1_r1_400.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.pix7{
+		width: 100%;
+		height: 170px;
+		background-image: url(../imagesblog/b5.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.headin2{
+		text-decoration: none;
+		margin-left: 15px;
+		color: #000;
+	}
+	.pix8{
+		width: 100%;
+		height: 185px;
+		background-image: url(../imagesblog/b13.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.pix9{
+		width: 100%;
+		height: 215px;
+		background-image: url(../imagesblog/b2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.secondary{
+		width:100%; 
+	}
+	.secondary h2{
+		border-bottom: 2px dotted;
+		font-size: 18px;
+		font-weight: bold;
+		color: #000;
+		text-align: center;
+	}
+	.secondary h2#cp{
+		font-size: 18px;
+		font-weight: bold;
+		color: #fff;
+		text-align: center;
+	}
+	.secondary .tlogo{
+		width: 95%;
+		height: 88px;
+		margin-top: -150px;
+		background-image: url(../images/firewatch-logo-sprite.png);
+		background-repeat: no-repeat;
+		display: inline-block;vertical-align: top;
+		margin-left: 10%;
+		background-position: 0 0;
+	}
+	
+	.secondary .tlogo:hover{
+		background-position: 0 -88px;
+		opacity: 1;
+		transition: opacity 1s ease 0s;
+	}
+	.secondary .project{
+		width: 100%;
+		height: 200px;
+		margin-top: -130px;
+		animation:bg 10s ease;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		-moz-animation-name: bg;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+	}
+
+	.weblinks h4 a{
+		display: none;
+	}
+	.weblinks h4 a:hover{
+		text-decoration: underline;
+	}
+	.content-block img{
+		width: 100%; 
+	}
+	footer{
+		background-color: #AD4200;
+		width: 100%;
+		height: 50px;
+	}
+	.foot{
+		padding-top: 15px;
+		font-size: 16px;
+		font-family: verdana;
+		margin-left: 20%;
+		font-weight: bold;
+	}
+	nav{
+		width: 100%;
+		height: 310px;
+		margin-top: -110px;
+		margin-left: 0;
+		background-color: #000;
+	}
+.two{
+		width: 100%;
+		margin-top:0;
+	}
+	.two ul{
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.two ul li{
+		padding: 20px;
+		margin-left: -40px;
+	}	
+	.two ul li a{
+		width: 100px;
+		font-family: "verlag";
+		color: #FFF;
+		font-size: 17px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.two ul li a .collapse, #og{
+		display: none;
+	}
+	.two ul li a #og{
+		font-size: 12px;
+		font-weight: bold;
+		word-spacing: 5px;
+	}
+	.two ul li:hover, .two ul li a:hover .one h1:hover{
+		background-color: #282825;
+	}
+	.two ul li#selected{
+		background-color: #A34300;
+	}
+}
+
+@media(min-width: 421px) and (max-width: 720px){
+	#animatn{
+		width: 100%;
+		height: 350px;
+		animation:bg 10s ease;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		-moz-animation-name: bg;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+
+	}
+	@keyframes bg{
+		0%{background-color:#AD4200;}
+		20%{background-color: #355F26;}
+		40%{background-color: #7F5302;}
+		60%{background-color: #15692D;}
+		80%{background-color: #A74301;}
+		100%{background-color: #A34500;}/*#855102#875002*/
+	}
+
+	.logo{
+		width:293px;
+		height: 156px;
+		margin: -260px auto;
+		margin-left: 18%;
+		background-image: url(../imagesblog/whitelogo.png);
+	}
+	#campso{
+		margin-top: -110px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	#campso a{
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bolder;
+		font-family: "verlag";
+		color: #fff;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		padding: 0 10px;
+		border-bottom: 2px solid;
+	}
+	#campso a:hover{
+		border-bottom: 1px dotted;
+	}
+	.container{
+	width: 100%;
+	margin: 370px auto;
+}
+	.primary{
+		width: 100%;
+	}
+	.primary-content{
+		width: 100%;
+	}
+	.primary-content h2{
+		border-bottom: 2px dotted;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+	}
+	.primary-content .headin{
+		color: #A0A0A0;
+		margin-left: 66%;
+		font-size: 20px;
+		text-decoration: none;
+	}
+	.primary-content .headimg{
+		width: 43px;
+		height: 43px;
+		color: #fff;
+		border-radius: 100%;
+		background-color: #A0A0A0;
+		font-size: 13px;
+		font-weight: bold;
+		margin-left: 5px;
+		border:none;
+		margin-bottom: 5px;	
+	}
+	.primary-content .pix1{
+		width: 100%;
+		height: 350px;
+		background-image: url(../imagesblog/b3.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+
+	}
+	.pix2{
+		background-image: url(../imagesblog/b15.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 100%;
+		height: 375px;
+		margin-top: 6px;
+	}
+	.pix3{
+		background-image: url(../imagesblog/b9.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 100%;
+		height:370px;
+		margin-top: 6px;
+	}
+	 p{
+		font-family: times;
+		text-decoration: none;
+		padding: 0 10px;
+		font-size: 20px;
+		text-align: justify;
+	}
+	 p a{
+		color: #6F6F6F;
+		text-decoration: none;
+	}
+	.postf{
+		padding-left: 0;
+		margin-bottom: -5px;
+		margin-top: 30px;
+	}
+	.postfooter .pf{
+		color: #6F6F6F;
+		font-family: verdana;
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+		display: inline-block;
+		vertical-align: top;
+		text-decoration: none;
+		margin-left: 5px;
+	}
+	.postfooter .pf:hover{
+		text-decoration: underline;
+	}
+	.pix4{
+		width: 100%;
+		height: 480px;
+		background-image: url(../imagesblog/b14.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.perf li{
+		font-size: 20px;
+		text-align: justify;
+	}
+	.pix5{
+		width: 100%;
+		height: 270px;
+		background-image: url(../imagesblog/b7.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.pix6{
+		width: 100%;
+		height: 250px;
+		background-image: url(http://68.media.tumblr.com/778df6bd4bbcf516166ff7a3eecfe77c/tumblr_oge0um72n51sikueao1_r1_400.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.pix7{
+		width: 100%;
+		height: 270px;
+		background-image: url(../imagesblog/b5.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.headin2{
+		text-decoration: none;
+		margin-left: 15px;
+		color: #000;
+		font-weight: bold;
+	}
+	.pix8{
+		width: 100%;
+		height: 330px;
+		background-image: url(../imagesblog/b13.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.pix9{
+		width: 100%;
+		height: 360px;
+		background-image: url(../imagesblog/b2.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.secondary{
+		width:100%; 
+	}
+	.secondary h2#cp{
+		font-size: 18px;
+		font-weight: bold;
+		color: #fff;
+		text-align: center;
+		border-bottom: 
+	}
+	.secondary .tlogo{
+		width: 55%;
+		height: 88px;
+		margin-top: -130px;
+		margin-left: 30%;
+		background-image: url(../images/firewatch-logo-sprite.png);
+		background-repeat: no-repeat;
+		display: inline-block;vertical-align: top;
+		background-position: 0 0;
+	}
+	
+	.secondary .tlogo:hover{
+		background-position: 0 -88px;
+		opacity: 1;
+		transition: opacity 1s ease 0s;
+	}
+	.secondary .project{
+		width: 100%;
+		height: 200px;
+		margin-top: -110px;
+		animation:bg 10s ease;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		-moz-animation-name: bg;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+	}
+	.secondary h2{
+		border-bottom: 2px dotted;
+		font-size: 18px;
+		font-weight: bold;
+		color: #000;
+		text-align: center;
+	}
+	.weblinks h4 a{
+		display: none;
+	}
+	.weblinks h4 a:hover{
+		text-decoration: underline;
+}
+	.content-block img{
+		margin-top:-50px;
+		width: 100%;
+	}
+footer{
+		background-color: #AD4200;
+		width: 100%;
+		height: 50px;
+}
+	.foot{
+		padding-top: 15px;
+		font-size: 15px;
+		font-family: verdana;
+		text-align: center;
+		font-weight: bold;
+	}
+	nav{
+		width: 100%;
+		height: 310px;
+		margin-top: -350px;
+		background-color: #000;
+	}
+.two{
+		width: 100%;
+		margin-top:0;
+	}
+	.two ul{
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.two ul li{
+		padding: 20px;
+		margin-left: -40px;
+	}	
+	.two ul li a{
+		width: 100px;
+		font-family: "verlag";
+		color: #FFF;
+		font-size: 17px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.two ul li a .collapse, #og{
+		display: none;
+	}
+	.two ul li a #og{
+		font-size: 12px;
+		font-weight: bold;
+		word-spacing: 5px;
+	}
+	.two ul li:hover, .two ul li a:hover .one h1:hover{
+		background-color: #282825;
+	}
+	.two ul li#selected{
+		background-color: #A34300;
+	}
+	#floater{
+		background-image: url(../imagesblog/task.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: fixed;
+		right: 1px;
+		bottom: 0;
+	}
+	#floater #exitdiv{
+		width: 25px;
+		float: right;
+		margin-top: 7px;
+		display: block;
+		margin-right: 10px;
+	}
+	#floater #exitdiv #exiit{
+		font-weight: 700;
+		font-family: "verlag";
+		font-size: 16px;
+		color: #797979;
+		cursor: pointer;
+	}
+	#floater #follow{
+		margin-left: 76%;
+		margin-top: 50px;
+		display: block;
+	}
+}
+
+@media(min-width: 721px) and (max-width: 960px){
+	
+	nav{
+		width: 100%;
+		height: 34px;
+		top: 0;
+		position: absolute;
+		background-color: #000;
+	}
+	.two{
+		width: 75%;
+		height: 34px;
+		float: right;
+	}
+	.two ul{
+		margin-top: 0;/*
+		float: right;*/
+	}
+	.two ul li{
+		display: inline-block;
+		vertical-align: top;
+		padding: 7px;
+		float: right;
+	}	
+	.two ul .li1{
+		float: left;
+		margin-left: -280px;
+	}
+	.two ul li a{
+		font-family:"verlag";
+		color: #FFF;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: left;
+		padding:10px 5px;
+		text-decoration: none;
+	}
+	.two ul li a #og, .collapse{
+		display: none;
+	}
+	.two ul li:hover, h1:hover {
+		background-color: #282825;
+	}
+	.two ul li#selected{
+		background-color: #A34300;
+		color: #FFAF00;
+	}
+	#animatn{
+		/*width: 100%;*/
+		width: 100%;
+		height: 320px;
+		animation:bg 10s ease;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		-moz-animation-name: bg;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+	}
+	.project{
+		width: 290px;
+		height: 279px;
+		animation:bg 10s ease;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		-moz-animation-name: bg;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+	}
+	@keyframes bg{
+		0%{background-color:#AD4200;}
+		20%{background-color: #355F26;}
+		40%{background-color: #7F5302;}
+		60%{background-color: #15692D;}
+		80%{background-color: #A74301;}
+		100%{background-color: #A34500;}/*#855102#875002*/
+	}
+
+	.logo{
+		width:293px;
+		height: 156px;
+		margin-left: 40%;
+		margin: -220px auto;
+		background-image: url(../imagesblog/whitelogo.png);
+	}
+	#campso{
+		margin-top: -50px;
+		text-align: center;
+	}
+	#campso a{
+		text-decoration: none;
+		font-size: 20px;
+		font-family: "verlag";
+		color: #fff;
+		border-bottom: 1px dotted;
+		letter-spacing: 1px;
+	}
+	#campso a:hover{
+		text-decoration: underline;
+	}
+	.container{
+		width: 100%;
+		margin: 350px auto;
+		overflow: hidden;
+}
+	.primary{
+		width: 65%;
+		float: left;
+	}
+	.primary-content{
+		width: 100%;
+	}
+	.primary-content h2{
+		border-bottom: 2px dotted;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.primary-content .headin{
+		color: #A0A0A0;
+		margin-left: 77%;
+		font-size: 18px;
+		text-decoration: none;
+	}
+	.primary-content .headimg{
+		width: 43px;
+		height: 43px;
+		color: #fff;
+		border-radius: 100%;
+		background-color: #A0A0A0;
+		font-size: 13px;
+		font-weight: bold;
+		margin-left: 5px;
+		border:none;
+		margin-bottom: 10px;	
+	}
+	.primary-content .pix1{
+		width: 100%;
+		height: 450px;
+		background-image: url(../imagesblog/b3.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+
+	}
+	.pix2{
+		background-image: url(../imagesblog/b15.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 49%;
+		height: 240px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.pix3{
+		background-image: url(../imagesblog/b9.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 49%;
+		height: 240px;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 1%;
+	}
+	 p{
+		font-family: times;
+		text-decoration: none;
+		text-align: justify;
+	}
+	 p a{
+		color: #6F6F6F;
+		text-decoration: none;
+	}
+	.postf{
+		float: right;
+	}
+	.postfooter .pf{
+		color: #6F6F6F;
+		font-family: verdana;
+		font-size: 10px;
+		text-transform: uppercase;
+		display: inline-block;
+		vertical-align: top;
+		text-decoration: none;
+	}
+	.postfooter .pf:hover{
+		text-decoration: underline;
+	}
+	.pix4{
+		width: 100%;
+		height: 650px;
+		background-image: url(../imagesblog/b14.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.pix5{
+		width: 100%;
+		height: 350px;
+		background-image: url(../imagesblog/b7.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.pix6{
+		width: 100%;
+		height: 237px;
+		background-image: url(http://68.media.tumblr.com/778df6bd4bbcf516166ff7a3eecfe77c/tumblr_oge0um72n51sikueao1_r1_400.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.pix7{
+		width: 100%;
+		height: 350px;
+		background-image: url(../imagesblog/b5.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.pix8{
+		width: 100%;
+		height: 450px;
+		background-image: url(../imagesblog/b13.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.pix9{
+		width: 100%;
+		height: 450px;
+		background-image: url(../imagesblog/b2.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.secondary{
+		width:30%;
+		float: right; 
+	}
+	.secondary h2{
+		border-bottom: 2px dotted;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.secondary h2 #cp{
+		font-size: 18px;
+		font-weight: bold;
+		animation:bg 5s cubic-bezier(1,0,0,1) infinite;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		-moz-animation-name: bg;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+	}
+	.secondary .tlogo{
+		width: 234px;
+		height: 88px;
+		margin-top: -190px;
+		background-image: url(../images/firewatch-logo-sprite.png);
+		background-repeat: no-repeat;
+		display: inline-block;vertical-align: top;
+		margin-left: 25px;
+		background-position: 0 0;
+	}
+	
+	.secondary .tlogo:hover{
+		background-position: 0 -88px;
+		opacity: 1;
+		transition: opacity 1s ease 0s;
+	}
+	.weblinks h4 a{
+		text-decoration: none;
+		margin-top: 0;
+	}
+	.weblinks h4 a:hover{
+		text-decoration: underline;
+	}
+	footer{
+		background-color: #AD4200;
+		width: 100%;
+		height: 50px;
+	}
+	.foot{
+		margin-top: 30px;
+		font-size: 15px;
+		font-family: verdana;
+		margin-left: 28%;
+	}
+	#floater{
+		background-image: url(../imagesblog/task.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: fixed;
+		right: 1px;
+		bottom: 0;
+	}
+	#floater #exitdiv{
+		width: 25px;
+		float: right;
+		margin-top: 7px;
+		display: block;
+		margin-right: 10px;
+	}
+	#floater #exitdiv #exiit{
+		font-weight: 700;
+		font-family: "verlag";
+		font-size: 16px;
+		color: #797979;
+		cursor: pointer;
+	}
+	#floater #follow{
+		margin-left: 76%;
+		margin-top: 50px;
+		display: block;
+	}
+}	
+@media (min-width: 961px){
+	nav{
+		width: 100%;
+		height: 34px;
+		top: 0;
+		position: absolute;
+		background-color: #000;
+	}
+	.two{
+		width: 75%;
+		height: 34px;
+		float: right;
+	}
+	.two ul{
+		margin-top: 0;
+	}
+	.two ul li{
+		display: inline-block;
+		vertical-align: top;
+		padding: 7px;
+		float: right;
+	}	
+	.two ul .li1{
+		float: left;
+		margin-left: -380px;
+	}
+	.two ul li a{
+		font-family:"verlag";
+		color: #FFF;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: left;
+		padding:10px 5px;
+		text-decoration: none;
+	}
+	.two ul li a #og{
+		font-size: 13px;
+		font-weight: normal;
+		word-spacing: 5px;
+	}
+	.two ul li:hover, h1:hover {
+		background-color: #282825;
+	}
+	.two ul li#selected{
+		background-color: #A34300;
+		color: #FFAF00;
+	}
+	#animatn, .project{
+		width: 100%;
+		height: 320px;
+		animation:bg 10s ease;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		-moz-animation-name: bg;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+
+	}
+	@keyframes bg{
+		0%{background-color:#AD4200;}
+		20%{background-color: #355F26;}
+		40%{background-color: #7F5302;}
+		60%{background-color: #15692D;}
+		80%{background-color: #A74301;}
+		100%{background-color: #A34500;}
+	}
+
+	.logo{
+		width:293px;
+		height: 156px;
+		margin-left: 40%;
+		margin-top: -220px;
+		background-image: url(../imagesblog/whitelogo.png);
+	}
+	#campso{
+		margin-top: -50px;
+		text-align: center;
+	}
+	#campso a{
+		text-decoration: none;
+		font-size: 20px;
+		font-family: "verlag";
+		color: #fff;
+		border-bottom: 1px dotted;
+		letter-spacing: 1px;
+	}
+	#campso a:hover{
+		text-decoration: underline;
+	}
+	.container{
+	width: 960px;
+	margin: 140px auto;
+}
+	.primary{
+		width: 65%;
+		float: left;
+	}
+	.primary-content{
+		width: 100%;
+	}
+	.primary-content h2{
+		border-bottom: 2px dotted;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.primary-content .headin{
+		color: #A0A0A0;
+		margin-left: 77%;
+		font-size: 18px;
+		text-decoration: none;
+	}
+	.primary-content .headimg{
+		width: 43px;
+		height: 43px;
+		color: #fff;
+		border-radius: 100%;
+		background-color: #A0A0A0;
+		font-size: 13px;
+		font-weight: bold;
+		margin-left: 5px;
+		margin-bottom: 10px;
+		border:none;	
+	}
+	.primary-content .pix1{
+		width: 100%;
+		height: 450px;
+		background-image: url(../imagesblog/b3.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+
+	}
+	.pix2{
+		background-image: url(../imagesblog/b15.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 49%;
+		height: 240px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.pix3{
+		background-image: url(../imagesblog/b9.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 49%;
+		height: 240px;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 1%;
+	}
+	 p{
+		font-family: times;
+		text-decoration: none;
+		text-align: justify;
+	}
+	 p a{
+		color: #6F6F6F;
+		text-decoration: none;
+	}
+	.postf{
+		float: right;
+	}
+	.postfooter .pf{
+		color: #6F6F6F;
+		font-family: verdana;
+		font-size: 10px;
+		text-transform: uppercase;
+		display: inline-block;
+		vertical-align: top;
+		text-decoration: none;
+	}
+	.postfooter .pf:hover{
+		text-decoration: underline;
+	}
+	.pix4{
+		width: 100%;
+		height: 650px;
+		background-image: url(../imagesblog/b14.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.pix5{
+		width: 100%;
+		height: 350px;
+		background-image: url(../imagesblog/b7.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.pix6{
+		width: 100%;
+		height: 237px;
+		background-image: url(http://68.media.tumblr.com/778df6bd4bbcf516166ff7a3eecfe77c/tumblr_oge0um72n51sikueao1_r1_400.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.pix7{
+		width: 100%;
+		height: 350px;
+		background-image: url(../imagesblog/b5.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.pix8{
+		width: 100%;
+		height: 450px;
+		background-image: url(../imagesblog/b13.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.pix9{
+		width: 100%;
+		height: 450px;
+		background-image: url(../imagesblog/b2.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.secondary{
+		width:30%;
+		float: right; 
+	}
+	.secondary h2{
+		border-bottom: 2px dotted;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.secondary h2 #cp{
+		font-size: 18px;
+		font-weight: bold;
+		animation:bg 5s cubic-bezier(1,0,0,1) infinite;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		-moz-animation-name: bg;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+	}
+	.secondary .tlogo{
+		width: 234px;
+		height: 88px;
+		margin-top: -190px;
+		background-image: url(../images/firewatch-logo-sprite.png);
+		background-repeat: no-repeat;
+		display: inline-block;vertical-align: top;
+		margin-left: 25px;
+		background-position: 0 0;
+	}
+	
+	.secondary .tlogo:hover{
+		background-position: 0 -88px;
+		opacity: 1;
+		transition: opacity 1s ease 0s;
+	}
+	.weblinks h4 a{
+		text-decoration: none;
+		margin-top: 0;
+	}
+	.weblinks h4 a:hover{
+		text-decoration: underline;
+}
+footer{
+		background-color: #AD4200;
+		width: 100%;
+		height: 50px;
+}
+	footer .foot{
+		margin-top: 0;
+		padding-top: 15px;
+		font-weight: bold;
+		font-size: 15px;
+		font-family: verdana;
+		margin-left: 28%;
+	}
+	#floater{
+		background-image: url(../imagesblog/task.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: fixed;
+		right: 1px;
+		bottom: 0;
+	}
+	#floater #exitdiv{
+		width: 25px;
+		float: right;
+		margin-top: 7px;
+		display: block;
+		margin-right: 10px;
+		border:none;
+	}
+	#floater #exitdiv #exiit{
+		font-weight: 700;
+		font-family: "verlag";
+		font-size: 16px;
+		color: #797979;
+		cursor: pointer;
+	}
+	#floater #follow{
+		margin-left: 76%;
+		margin-top: 50px;
+		display: block;
+	}
+}

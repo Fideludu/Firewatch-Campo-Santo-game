@@ -1,0 +1,1090 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+html{
+	font-family: "verlag";
+}
+@font-face{
+	font-family: "verlag";
+	src:url(../Verlag-Book.otf);
+}
+body{
+	margin: 0 auto;
+	width: 100%;
+	background-color: #210002;
+}
+@media (max-width:420px){
+	#art{
+		width: 100%;
+		height: 350px;
+	}
+	.content {
+	  position: absolute;
+	  top: 350px;
+	  background: #210002;
+	  width: 100%;
+}
+	.container{
+		margin: 0 auto;
+		width: 100%;
+		background-color: #210002;
+	}
+	.container h2{
+		color: #FFAF00;
+		font-size: 35px;
+		font-weight: bold;
+		padding-top: 30px;
+		text-align: center;
+	}
+	.container #ign{
+		color: #973700;
+		font-size: 25px;
+		word-spacing: 10px;
+		font-weight: bold;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	.container #price{
+		font-size: 19px;
+		word-spacing: 2px;
+		background-attachment: scroll, scroll;
+		background-clip: border-box;
+		background-image: url(../images/banner_transparent_left.png), url(../images/banner_transparent_right.png);
+		background-origin: padding-box,padding-box;
+		background-size: contain,contain;
+		background-repeat: no-repeat;
+		background-position: left top, right top;
+		background-color: #FFAF00;
+		display: inline-block;
+		outline: 1px solid #210002;
+    	padding: 0.5em 1.1em;
+    	transition: background-color 0.15s ease 0s;
+    	margin-bottom: 30px;
+    	width: 100%;
+	}
+	.widget img{
+		width: 65%;
+		background-color: #FFAF00;
+		cursor: pointer;
+	}
+	.widgett img{
+		width: 50%;
+		margin-left: 70px;
+		background-color: #FFAF00;
+		cursor: pointer;
+	}
+	.widget #gog{
+		width: 80px;
+	}
+	.widget img:hover, .widgett img:hover{
+		background-color: #FFF;
+	}
+
+	.widget span, .widgett span{
+		width: 100%;
+		display: block;
+		margin-bottom: 10px;
+		font-size: 19px;
+		word-spacing: 20px;
+		background-image: url(../images/banner_transparent_left.png), url(../images/banner_transparent_right.png);
+		background-origin: padding-box, padding-box;
+		background-size: contain, contain;
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-position: left top, right top;
+		background-color: #FFAF00;
+		display: inline-block;
+		outline: 1px solid #210002;
+		padding: 0.5em 1.1em;
+		transition: background-color 0.15s ease 0s;
+		text-align: center;
+	}
+	.widgett span{
+	 	width: 100%;
+	 }
+	.video iframe{
+		width: 100%;
+		height: 300px;
+	}
+	.container h3{
+		color: #FFAF01;
+		font-size: 30px;
+		font-weight: bold;
+		text-align: justify;
+		padding: 10px;
+	}
+	.container .fw, .fw2{
+		color: #FFAF01;
+		font-size: 20px;
+		font-weight: normal;
+		text-align: justify;
+		padding: 10px;
+	}
+	.widget2 .jpg, .merchlink{
+		background-color: #973700;
+		width: 100%;
+	} 
+	.widget2 .jpg{
+		opacity: 0.85;
+		transition: opacity 0.2s ease 0s;
+	} 
+	.widget2 .jpg:hover{
+		opacity: 1;
+	}
+	.widget2 .mer, .banner, .banner2, .bannerA, .bannerB{
+		color: #210002;
+		background-color: #973700;
+		font-size: 20px;
+		text-align: center;
+		background-image: url(../images/banner_transparent_left.png), url(../images/banner_transparent_right.png);
+		background-origin: padding-box, padding-box;
+		background-size: contain, contain;
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-position: left top, right top;
+		display: inline-block;
+		outline: 1px solid #210002;
+		padding: 0.5em 1.1em;
+		transition: background-color 0.15s ease 0s;
+		display: block;
+		margin-bottom: 30px;
+	}
+	.widget2 .mer:hover, .banner:hover, .jpg:hover, img.santo:hover, .banner2:hover, .bannerA:hover, .bannerB:hover{
+		background-color: #FFAF00;
+	}
+	.widget2 img#shield{
+		width: 20%;
+		margin-left: 40%;
+		margin-bottom: 15px;
+	}
+	.widget2 p{
+		font-size: 17px;
+		font-family: inherit;
+		text-align: center;
+		color: #973700;
+	}
+	.widget2 .santo{
+		width: 30%;
+		background-color:#973700;
+		margin-left: 120px;
+	}
+	nav{
+		width: 100%;
+		height: 450px;
+		top: 4300px;
+		position: absolute;
+		background-color: #000;
+	}
+	.one{
+		width: 100%;
+		height: 70px;
+		margin:0;
+	}
+	.one h1{
+		margin: 0;
+		font-family: verdana;
+		font-size: 25px;
+		color: #FFAF00;
+		text-align: center;
+		padding-top: 35px;
+		padding: 35px;
+	}
+	.one h1 a, .two ul li a{
+		text-decoration: none;
+		color: #FFAF00;
+	}
+	.two{
+		width: 100%;
+		margin-top:0;
+	}
+	.two ul{
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.two ul li{
+		padding: 30px;
+		margin-left: -40px;
+	}	
+	.two ul li a{
+		width: 100px;
+		font-family: "verlag";
+		color: #FFAF00;
+		font-size: 23px;
+		font-weight: bold;
+		/*padding: 30px;*/
+	}
+	.two ul li a .collapse, #og{
+		display: none;
+	}
+	.two ul li a #og{
+		font-size: 12px;
+		font-weight: bold;
+		word-spacing: 5px;
+	}
+	.two ul li:hover, .one h1:hover{
+		background-color: #5A1715;
+	}
+	.two ul li:active,#selected{
+		background-color: #A34300;
+	}
+}
+
+
+@media (min-width: 421px) and (max-width:720px){
+	#art{
+		width: 100%;
+		height: 370px;
+	}
+	.content {
+	  position: absolute;
+	  top: 350px;
+	  background: #210002;
+	  width: 100%;
+}
+	.container{
+		margin: 0 auto;
+		width: 100%;
+		background-color: #210002;
+	}
+	.container h2{
+		color: #FFAF00;
+		font-size: 35px;
+		font-weight: bold;
+		padding-top: 30px;
+		text-align: center;
+	}
+	.container #ign{
+		color: #973700;
+		font-size: 25px;
+		word-spacing: 10px;
+		font-weight: bold;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	.container #price{
+		width: 80%;
+		font-family: "verlag";
+		font-size: 20px;
+		word-spacing: 7px;
+		background-attachment: scroll, scroll;
+		background-clip: border-box;
+		background-image: url(../images/banner_transparent_left.png), url(../images/banner_transparent_right.png);
+		background-origin: padding-box,padding-box;
+		background-size: contain,contain;
+		background-repeat: no-repeat;
+		background-position: left top, right top;
+		background-color: #FFAF00;
+		display: inline-block;
+		outline: 1px solid #210002;
+    	padding: 0.3em 1.1em;
+    	transition: background-color 0.15s ease 0s;
+    	margin-bottom: 15px;
+    	letter-spacing: 3px;
+    	margin-left: 10%;
+    	font-weight: bold;
+    	text-align: center;
+	}
+	.storelinks{
+		margin-left: 5%;
+		width: 90%;
+	}
+	.widget img{
+		width:60%; 
+		margin-left: 25px;
+	    background-color: #FFAF00;
+	    cursor: pointer;
+  	}
+  	.widgett img{
+  		width: 25%;
+  		margin-left: 190px;
+	    background-color: #FFAF00;
+	    cursor: pointer;
+  }
+	.widget #gog{
+		width: 80px;
+	}
+	.widget img:hover, .widgett img:hover{
+		background-color: #FFF;
+	}
+	.widget span, .widgett span{
+		display: inline-block;
+		vertical-align: top;
+		margin-bottom: 40px;
+		margin-left: 10%;
+		font-size: 15px;
+		font-weight: bold;
+		font-family: "verlag";
+		letter-spacing: 3px;
+		background-image: url(../images/banner_transparent_left.png), url(../images/banner_transparent_right.png);
+		background-origin: padding-box, padding-box;
+		background-size: contain, contain;
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-position: left top, right top;
+		background-color: #FFAF00;
+		display: inline-block;
+		outline: 1px solid #210002;
+		padding: 0.5em 1.0em;
+		transition: background-color 0.15s ease 0s;
+	}
+	.widgett span{
+	    margin-left: 90px;
+	    width: 60%;
+	    text-align: center;
+	   }
+	.widget .win, .ps{
+	    width: 80%;
+	    text-align: center;
+	  }
+	.video iframe{
+		width: 90%;
+		height: 300px;
+		margin-left: 5%;
+	}
+	.container h3{
+		color: #FFAF00;
+		font-size: 30px;
+		font-weight: bold;
+		text-align: justify;
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	.container .fw, .fw2{
+		color: #FFAF00;
+		font-size: 20px;
+		font-weight: normal;
+		text-align: justify;
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	.widget2 .merchlink{
+		width: 40%;
+		background-color: #973700;
+		margin-left: 30px;
+	} 
+	.widget2 .jpg{
+		background-color: #973700;
+		width: 92%;
+		margin-left: 4%;
+	} 
+	.widget2 .jpg{
+		opacity: 0.85;
+	transition: opacity 0.2s ease 0s;
+	} 
+	.widget2 .jpg:hover{
+		opacity: 1;
+	}
+	.widget2 .mer, .banner, .banner2, .bannerA, .bannerB{
+		color: #210002;
+		background-color: #973700;
+		font-size: 20px;
+		text-align: center;
+		background-image: url(../images/banner_transparent_left.png), url(../images/banner_transparent_right.png);
+		background-origin: padding-box, padding-box;
+		background-size: contain, contain;
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-position: left top, right top;
+		display: inline-block;
+		outline: 1px solid #210002;
+		padding: 0.5em 1.1em;
+		transition: background-color 0.15s ease 0s;
+		display: block;
+		margin-bottom: 30px;
+		width: 40%;
+	}
+	.widget2 .mer{
+		margin-left: 30px;
+		margin-top: 30px;
+	}
+	.widget2 .bannerA{
+		display: block;
+		margin-left: 50%;
+		margin-top: -170px;
+	}
+	.widget2 .bannerB{
+		margin-left: 50%;
+		margin-top: 50px;
+	}
+	.widget2 .mer:hover, .banner:hover, .jpg:hover, img.santo:hover, .banner2:hover, .bannerA:hover, .bannerB:hover{
+		background-color: #FFAF00;
+	}
+	.widget2 img#shield{
+		width: 20%;
+		margin-left: 40%;
+		margin-bottom: 15px;
+	}
+	.widget2 p{
+		font-size: 17px;
+		font-family: inherit;
+		text-align: center;
+		color: #973700;
+	}
+	.widget2 .banner2{
+		padding: 0.2em 0.5em;
+		width: 40%;
+		font-size: 17px;
+		margin-left: 30%;
+	}
+	.widget2 .santo{
+		width: 30%;
+		background-color:#973700;
+		margin-left:35%;
+	}
+
+	nav{
+		width: 100%;
+		height: 450px;
+		top: 4450px;
+		position: absolute;
+		background-color: #000;
+	}
+	.one{
+		width: 100%;
+		height: 70px;
+		margin:0;
+	}
+	.one h1{
+		margin: 0;
+		font-family: verdana;
+		font-size: 25px;
+		color: #FFAF00;
+		text-align: center;
+		padding-top: 35px;
+		padding: 35px;
+	}
+	.one h1 a, .two ul li a{
+		text-decoration: none;
+		color: #FFAF00;
+	}
+	.two{
+		width: 100%;
+		margin-top:0;
+	}
+	.two ul{
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.two ul li{
+		padding: 30px;
+		margin-left: -40px;
+	}	
+	.two ul li a{
+		font-family: "verlag";
+		color: #FFAF00;
+		font-size: 23px;
+		font-weight: bold;
+		padding: 30px;
+	}
+	.two ul li a .collapse, #og{
+		display: none;
+	}
+	.two ul li a #og{
+		font-size: 12px;
+		font-weight: bold;
+		word-spacing: 5px;
+	}
+	.two ul li:hover, .one h1:hover{
+		background-color: #5A1715;
+		outline: 0;
+	}
+	.two ul #selected{
+		background-color: #A34300;
+	}
+}
+
+@media (min-width: 721px) and (max-width:960px){
+	#art{
+		width: 100%;
+		height: 500px;	
+	}
+	nav{
+		width: 100%;
+		height: 35px;
+		background-color: #000;
+		top: 0;
+		position: absolute;
+	}
+	.one{
+		width: 20%;
+		height: 35px;
+		float: left;
+	}
+	.one h1{
+		margin-top: 0;
+		font-family: "verlag";
+		font-size: 17px;
+		color: #FFA500;
+		text-align: left;
+		padding-left: 10px;
+		padding: 6px;
+		font-weight: bold;
+	}
+	.one h1 a, .two ul li a{
+		text-decoration: none;
+		color: #FFAF00;
+	}
+	.two{
+		width: 75%;
+		height: 35px;
+		float: right;
+	}
+	.two ul{
+		margin-top: 0;
+		text-align: right;
+		padding-top: 5px;
+	}
+	.two ul li{
+		display: inline-block;
+		vertical-align: top;
+	}	
+	.two ul li a{
+		font-family: verdana;
+		color: #FFAF00;
+		font-size: 16px;
+		font-weight: normal;
+		padding:10px 15px;
+		text-decoration: none;
+		margin-left: -5px;
+	}
+	.two ul li a .collapse, #og{
+		display: none;
+	}
+	.two ul li a #og{
+		font-size: 12px;
+		font-weight: bold;
+		word-spacing: 5px;
+	}
+	.two ul li a:hover, h1:hover {
+		background-color: #5A1715;
+	}
+	.two ul li#selected a{
+		background-color: #A34300;
+	}
+	.content {
+		width: 100%;
+		position: absolute;
+		overflow: hidden;
+		background: #210002;
+	}
+	.container{
+		width: 700px;
+		margin: 0 auto;
+		background-color: #210002;
+		position: relative;
+  		z-index: 2;
+	}
+	.container h2{
+		color: #FFAF00;
+		font-size: 30px;
+		font-family: "verlag";
+		font-weight:normal;
+		padding-top: 30px;
+		text-align: center;
+	}
+	.container #ign{
+		color: #973700;
+		font-family: "verlag";
+		font-size: 15px;
+		margin-bottom: 25px;
+		font-weight: bold;
+		text-align: center;
+		letter-spacing: 5px;
+	}
+	.container #price{
+		font-family: "verlag";
+		font-size: 30px;
+		word-spacing: 10px;
+		background-attachment: scroll, scroll;
+		background-clip: border-box;
+		background-image: url(../images/banner_transparent_left.png), url(../images/banner_transparent_right.png);
+		background-origin: padding-box,padding-box;
+		background-size: contain,contain;
+		background-repeat: no-repeat;
+		background-position: left top, right top;
+		background-color: #FFAF00;
+		display: inline-block;
+		outline: 1px solid #210002;
+    	padding: 0.3em 1.1em;
+    	transition: background-color 0.15s ease 0s;
+    	margin-bottom: 15px;
+    	margin-left: 50px;
+    	letter-spacing: 3px;
+    	text-align: center;
+	}
+	.storelinks{
+		margin-left: 83px;
+		width: 780px;
+	}
+	.widget, .widgett{
+		width: 29%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.widgett{
+		margin-left: -55px;
+	}
+	.widget img, .widgett img{
+		width: 150px;
+		background-color: #FFAF00;
+		cursor: pointer;
+	}
+	.widget #gog{
+		width: 40px;
+		margin-left: 5px;
+	}
+	.widgett #xb{
+		width: 79px;
+		margin-left: 15px;
+	}
+	.widget img:hover, .widgett img:hover{
+		background-color: #FFF;
+	}
+	.widget span, .widgett span{
+		display: inline-block;
+		vertical-align: top;
+		margin-bottom: 40px;
+		margin-left: 5px;
+		font-size: 13px;
+		font-weight: bold;
+		font-family: "verlag";
+		letter-spacing: 3px;
+		background-image: url(../images/banner_transparent_left.png), url(../images/banner_transparent_right.png);
+		background-origin: padding-box, padding-box;
+		background-size: contain, contain;
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-position: left top, right top;
+		background-color: #FFAF00;
+		display: inline-block;
+		outline: 1px solid #210002;
+		padding: 0.2em 1.0em;
+		transition: background-color 0.15s ease 0s;
+	}
+	.video iframe{
+		width: 700px;
+		height: 505px;
+		z-index: 1;
+		cursor: pointer;
+	}
+	.container h3{
+		color: #FFAF01;
+		font-size: 25px;
+		font-weight: bold;
+		text-align: justify;
+		padding: 10px 10px;
+		font-family: "verlag";
+		margin-bottom: 30px;
+	}
+	.container .fw{
+		color: #FFAF01;
+		font-size: 20px;
+		font-weight: normal;
+		text-align: left;
+		padding: 10px 10px;
+		margin-bottom: 30px;
+		font-family:"verlag";
+	}
+	.container .fw2{
+		color: #FFAF01;
+		font-size: 20px;
+		font-weight: normal;
+		text-align: left;
+		padding: 10px 10px;
+		font-family: inherit;
+		margin-bottom: 30px;
+		
+	}
+	.widget2 .merchlink{
+		width: 40%;
+		background-color: #973700;
+		margin-left: 30px;
+	} 
+	.widget2 .jpg{
+		width: 46%;
+		margin: 5px 5px 10px 15px;
+		opacity: 0.85;
+		transition: opacity 0.2s ease 0s;
+	} 
+	.widget2 .jpg:hover{
+		opacity: 1;
+	}
+	.widget2 .mer, .banner, .banner2, .bannerA, .bannerB{
+		color: #210002;
+		background-color: #973700;
+		font-size: 20px;
+		text-align: center;
+		background-image: url(../images/banner_transparent_left.png), url(../images/banner_transparent_right.png);
+		background-origin: padding-box, padding-box;
+		background-size: contain, contain;
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-position: left top, right top;
+		display: inline-block;
+		outline: 1px solid #210002;
+		padding: 0.5em 1.1em;
+		transition: background-color 0.15s ease 0s;
+		margin-bottom: 30px;
+		width: 40%;
+		margin-left: 30px;
+	}
+	.widget2 .mer{
+		margin-left: 30px;
+		margin-top: 30px;
+	}
+	.widget2 .bannerA{
+		display: block;
+		margin-left: 54%;
+		margin-top: -132px;
+	}
+	.widget2 .bannerB{
+		margin-left: 54%;
+		margin-top: -70px;
+	}
+	.widget2 .mer:hover, .banner:hover, .jpg:hover, img.santo:hover, .banner2:hover, .bannerA:hover, .bannerB:hover{
+		background-color: #FFAF00;
+	}
+	.widget2 img#shield{
+		width:8%;
+		margin-left: 14px;
+		margin-bottom: -19px;
+		margin-right: -10px;
+	}
+	#uni{
+		text-align: center;
+		width: 60%;
+		margin-left: 20%;
+		font-size: 33px;
+	}
+	.widget2 p{
+		font-size: 15px;
+		font-family: inherit;
+		text-align: center;
+		color: #973700;
+		text-transform: uppercase;
+	}
+	.widget2 .banner2{
+		padding: 0.2em 0.5em;
+		width: 40%;
+		font-size: 17px;
+
+	}
+	.widget2 .santo{
+		width: 12%;
+		background-color:#973700;
+		margin-left: 40%;
+		margin-right: -260px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: 50px;
+	}
+
+}
+@media (min-width: 961px){
+	body{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #210002;
+  }
+
+	nav{
+		width: 100%;
+		height: 35px;
+		top: 0;
+		position: absolute;
+		background-color: #000;
+	}
+	.one{
+		width: 13%;
+		height: 35px;
+		float: left;
+	}
+	.one h1{
+		margin-top: 0;
+		font-family: verdana;
+		font-size: 17px;
+		color: #FFA500;
+		text-align: left;
+		padding-left: 10px;
+		padding: 7px;
+	}
+	.one h1 a, .two ul li a{
+		text-decoration: none;
+		color: #FFAF00;
+	}
+	.two{
+		width: 75%;
+		height: 35px;
+		float: right;
+	}
+	.two ul{
+		margin-top: 0;
+		float: right;
+	}
+	.two ul li{
+		display: inline-block;
+		vertical-align: top;
+		padding: 7.1px;
+	}	
+	.two ul li a{
+		font-family:"verlag";
+		color: #FFA500;
+		font-size: 16px;
+		font-weight: bold;
+		text-align: left;
+		padding:10px 15px;
+		text-decoration: none;
+	}
+	.two ul li a #og{
+		font-size: 15px;
+		font-weight: normal;
+		word-spacing: 5px;
+	}
+	.two ul li:hover, h1:hover {
+		background-color: #5A1715;
+	}
+	.two ul li:active, #selected{
+		background-color: #A34300;
+		color: #FFAF00;
+	}
+	.content {
+    position:absolute;
+    top: 800px;
+    background: #210002;
+    width: 100%;
+    min-height: 2900px;
+  }
+	.container{
+		margin: 0 auto;
+		width: 960px;
+		background-color: #210002;
+		position: relative;
+  		top: 100px;
+  		z-index: 2;
+	}
+	.container h2{
+		color: #FFAF00;
+		font-size: 50px;
+		font-family: "verlag";
+		font-weight:normal;
+		text-align: center;
+		margin-top: 0;
+	}
+	.container #ign{
+		color: #973700;
+		font-family: "verlag";
+		font-size: 25px;
+		margin-bottom: 25px;
+		font-weight: bold;
+		text-align: center;
+		letter-spacing: 5px;
+	}
+	.container #price{
+		font-family: "verlag";
+		font-size: 35px;
+		word-spacing: 10px;
+		background-attachment: scroll, scroll;
+		background-clip: border-box;
+		background-image: url(../images/banner_transparent_left.png), url(../images/banner_transparent_right.png);
+		background-origin: padding-box,padding-box;
+		background-size: contain,contain;
+		background-repeat: no-repeat;
+		background-position: left top, right top;
+		background-color: #FFAF00;
+		display: inline-block;
+		outline: 1px solid #210002;
+    	padding: 0.3em 1.1em;
+    	transition: background-color 0.15s ease 0s;
+    	margin-bottom: 15px;
+    	margin-left: 14%;
+    	letter-spacing: 3px;
+	}
+	.storelinks{
+		width: 100%;
+	}
+	.widget{
+		width: 30%;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 6%;
+		margin-right: 2%;
+	}
+	.widgett{
+		width: 25%;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: -2%;
+	}
+	.widget img, .widgett img{
+		width: 220px;
+		background-color: #FFAF00;
+		cursor: pointer;
+	}
+	.widget #gog{
+		width: 40px;
+		margin-left: 5px;
+	}
+	.widgett #xb{
+		width: 120px;
+		margin-left: 15px;
+	}
+	.widget img:hover, .widgett img:hover{
+		background-color: #FFF;
+	}
+	.widget span, .widgett span{
+		display: inline-block;
+		vertical-align: top;
+		margin-bottom: 40px;
+		margin-left: 5px;
+		font-size: 18px;
+		font-weight: bold;
+		font-family: "verlag";
+		letter-spacing: 3px;
+		background-image: url(../images/banner_transparent_left.png), url(../images/banner_transparent_right.png);
+		background-origin: padding-box, padding-box;
+		background-size: contain, contain;
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-position: left top, right top;
+		background-color: #FFAF00;
+		display: inline-block;
+		outline: 1px solid #210002;
+		padding: 0.2em 1.0em;
+		transition: background-color 0.15s ease 0s;
+	}
+	.video iframe{
+		width: 960px;
+		height: 600px;
+		z-index: 1;
+		cursor: pointer;
+	}
+	.container h3{
+		width: 90%;
+		color: #FFAF00;
+		font-size: 27px;
+		font-weight: bold;
+		text-align: justify;
+		padding: 5px;
+		margin-left:3%;
+		font-family: "verlag";
+	}
+	.container .fw{
+		width: 48%;
+		color: #FFAF01;
+		font-size: 22px;
+		font-weight: normal;
+		text-align: justify;
+		padding: 2%;
+		font-family:"verlag";
+		display: inline-block;
+		vertical-align: top;
+	}
+	.container .fw2{
+		width: 48%;
+		display: inline-block;
+		vertical-align: top;
+		color: #FFAF01;
+		font-size: 22px;
+		font-weight: normal;
+		text-align: justify;
+		padding: 2%;
+		font-family: inherit;
+		margin-top: 45px;
+	}
+	.widget2 .merchlink{
+		width: 40%;
+		background-color: #973700;
+		margin-left: 30px;
+	} 
+	.widget2 .jpg{
+		width: 48%;
+		margin: 5px 5px 10px;
+		opacity: 0.85;
+		transition: opacity 0.2s ease 0s;
+	} 
+	.widget2 .jpg:hover{
+		opacity: 1;
+	}
+	.widget2 .mer, .banner, .banner2, .bannerA, .bannerB{
+		width: 40%;
+		color: #210002;
+		background-color: #973700;
+		font-size: 20px;
+		text-align: center;
+		background-image: url(../images/banner_transparent_left.png), url(../images/banner_transparent_right.png);
+		background-origin: padding-box, padding-box;
+		background-size: contain, contain;
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-position: left top, right top;
+		display: inline-block;
+		outline: 1px solid #210002;
+		padding: 0.5em 1.1em;
+		transition: background-color 0.15s ease 0s;
+		margin-bottom: 30px;
+		margin-left: 30px;
+	}
+	.widget2 .bannerA{
+		display: block;
+		margin-left: 53%;
+		margin-top: -132px;
+	}
+	.widget2 .bannerB{
+		margin-left: 53%;
+		margin-top: -70px;
+	}
+	.widget2 .mer:hover, .banner:hover, .jpg:hover, img.santo:hover, .banner2:hover, .bannerA:hover, .bannerB:hover{
+		background-color: #FFAF00;
+	}
+	.widget2 img#shield{
+		width:8%;
+		margin-left: 14px;
+		margin-bottom: -19px;
+		margin-right: -10px;
+	}
+	#uni{
+		text-align: center;
+		width: 60%;
+		margin-left: 20%;
+		font-size: 33px;
+	}
+	.widget2 p{
+		font-size: 17px;
+		font-family: inherit;
+		text-align: center;
+		color: #973700;
+		text-transform: uppercase;
+	}
+	.widget2 .banner2{
+		padding: 0.2em 0.5em;
+		width: 40%;
+		font-size: 20px;
+		font-weight: bold;
+
+	}
+	.widget2 .santo{
+		width: 12%;
+		background-color:#973700;
+		margin-left: 35%;
+		margin-right: -300px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: 50px;
+	}
+}
+@media only screen and (max-width: 960px){
+	.parallax-container{
+		display: none;
+	}
+}
+@media (min-width: 961px) {
+	.parallax-container{
+		display: block;
+	}#art{
+		display: none;
+	}
+}
